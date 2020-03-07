@@ -4,8 +4,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/xiaokangwang/waVingOcean/configure"
-	"github.com/xiaokangwang/waVingOcean/definition"
+	"github.com/gitamenet/waVingOcean/configure"
+	"github.com/gitamenet/waVingOcean/definition"
 	"github.com/yinghuocho/gotun2socks"
 )
 

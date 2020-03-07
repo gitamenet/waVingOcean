@@ -9,7 +9,7 @@ import (
 
 	"github.com/yinghuocho/gotun2socks/internal/packet"
 
-	"github.com/xiaokangwang/waVingOcean/definition"
+	"github.com/gitamenet/waVingOcean/definition"
 )
 
 const (

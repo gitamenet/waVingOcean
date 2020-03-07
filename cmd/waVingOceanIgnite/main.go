@@ -4,11 +4,10 @@ import (
 	"bytes"
 	"io"
 	"os"
-)
-import (
+
+	"github.com/gitamenet/waVingOcean/configure"
 	"github.com/golang/protobuf/proto"
-	"github.com/xiaokangwang/waVingOcean"
-	"github.com/xiaokangwang/waVingOcean/configure"
+	wavingocean "github.com/xiaokangwang/waVingOcean"
 )
 
 func main() {

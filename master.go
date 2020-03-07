@@ -4,20 +4,20 @@ import (
 	"bytes"
 	"context"
 
-	"github.com/xiaokangwang/waVingOcean/configure"
+	core "github.com/gitamenet/v2ray-core"
+	"github.com/gitamenet/waVingOcean/configure"
 	"github.com/yinghuocho/gotun2socks"
 	"github.com/yinghuocho/gotun2socks/tun"
-	"v2ray.com/core"
 
 	//load v2ray init codes
-	_ "v2ray.com/core/main/distro/all"
+	_ "github.com/gitamenet/v2ray-core/main/distro/all"
 )
 
 /*Ignite Start Tap server from configure
  */
 func Ignite(cfg configure.WaVingOceanConfigure) {
 	//Start V2Ray
-	configure, err := core.LoadConfig("protobuf","", bytes.NewBuffer(cfg.V2RayConfigure))
+	configure, err := core.LoadConfig("protobuf", "", bytes.NewBuffer(cfg.V2RayConfigure))
 	if err != nil {
 		panic(err)
 	}

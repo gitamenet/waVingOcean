@@ -5,10 +5,10 @@ import (
 	"io"
 	"os"
 
+	"github.com/gitamenet/waVingOcean/configure"
 	"github.com/golang/protobuf/proto"
 	"github.com/ld9999999999/go-interfacetools"
 	"github.com/nahanni/go-ucl"
-	"github.com/xiaokangwang/waVingOcean/configure"
 )
 
 func main() {
